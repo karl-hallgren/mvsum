@@ -84,20 +84,20 @@ mcmc.run(num_iter=10000, burn_in=5000, thinning=1, move_prob=[1./5, 1./5, 1./5, 
 
 Code to run simulations discussed in the article. 
 
-For the experiment regarding the asymptotic behaviour of the parameters space:
+For the experiment regarding the asymptotic behaviour of the parameter space:
 ```
 python3 simulations/parameter_space.py
 Rscript simulations/plots/param_space.R
 ```
 
-For the experiment discussed in Section 6 of the article
+For the experiment discussed in Section 6 of the article [yet to be added]
 ```
 ./simulations/run_experiment1.sh
 python3 simulations/process_experiment1.py
 Rscript simulations/plots/experiment1.py
 ```
 
-For the experiment regarding the initialisation of the sampler
+For the experiment regarding the initialisation of the sampler [yet to be added]
 ```
 python3 simulations/run_experiment1_part3.py
 Rscript simulations/plots/experiment1_part3.py
