@@ -90,7 +90,7 @@ python3 simulations/parameter_space.py
 Rscript simulations/plots/param_space.R
 ```
 
-For the experiment discussed in Section 7 of the article
+For the experiment discussed in Section 6 of the article
 ```
 ./simulations/run_experiment1.sh
 python3 simulations/process_experiment1.py
