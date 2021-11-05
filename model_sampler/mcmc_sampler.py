@@ -148,7 +148,8 @@ class MCMCsampler(ChangepointModel):
                         self.accept_count['shift'] += 1
 
     def prop_w(self):
-
+        # model extension where only theta (and not m) may change from one segment to another
+        # not discussed in the paper
         if len(self.tau) > 2 and 0 < self.w_hyper < 1:
             j = np.random.randint(1, len(self.tau) - 1)
 
